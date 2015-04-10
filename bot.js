@@ -38,7 +38,7 @@ function respond() {
   } 
   else if(request.text && botRegexShrug.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://ih0.redbubble.net/image.22776323.7252/fc,550x550,white.jpg");
+    postMessage("¯\\\\\\_(ツ)_/¯");
     this.res.end();
   } 
   else if(request.text && botRegexSC.test(request.text)) {
