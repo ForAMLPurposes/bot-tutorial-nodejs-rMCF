@@ -68,6 +68,7 @@ function respond() {
     this.res.writeHead(200);
     postMessage("http://vista.gmu.edu/assets/images/blog/force.jpg");
     this.res.end();
+  } 
   else {
     console.log("don't care");
     this.res.writeHead(200);
