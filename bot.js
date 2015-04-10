@@ -66,7 +66,7 @@ function respond() {
   } 
   else if(request.text && botRegexLab.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("http://vista.gmu.edu/assets/images/blog/force.jpg");
+    postMessage("http://www.cornelllab.com/images/70.jpg");
     this.res.end();
   } 
   else {
