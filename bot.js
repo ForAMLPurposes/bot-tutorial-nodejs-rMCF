@@ -38,7 +38,7 @@ function respond() {
   } 
   else if(request.text && botRegexShrug.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("\¯\_(ツ)_/¯");
+    postMessage("(¯\_(ツ)_/¯");
     this.res.end();
   } 
   else if(request.text && botRegexSC.test(request.text)) {
